@@ -1,0 +1,113 @@
+.x {
+    color: white;
+}
+.xx{
+    width: 80%;
+    margin: auto;
+}
+.xxxx{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+header{
+    background-color: rgb(153, 163, 153);
+}
+header div {
+    padding: 10px;
+}
+header h1 {
+    margin-bottom: 0;
+}
+header p{
+    margin-top: 0;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cityButton{
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(179, 177, 177);
+}
+.cityButton:hover{
+    color: lightblue;
+    border-color: lightblue;
+}
+.add {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    background-color: rgb(153, 163, 153);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+.add:hover{
+    border: 1px solid lightblue;
+    color: lightblue;
+}
+
+.list{
+    flex-wrap: wrap;
+}
+
+
+
+
+.xxx{
+    display: flex;
+}
+.divdiv{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+    width: 250px;
+}
+.price{
+    padding: 10px 0px 0px 10px;
+    margin: 0;
+}
+.city{
+    padding: 10px;
+    margin: 0;
+}
+.description{
+    padding: 10px 0px 50px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

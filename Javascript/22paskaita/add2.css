@@ -1,0 +1,74 @@
+.x {
+    color: white;
+}
+.xx{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+header{
+    background-color: rgb(153, 163, 153);
+}
+header div {
+    padding: 10px;
+}
+header h1 {
+    margin-bottom: 0;
+}
+header p{
+    margin-top: 0;
+}
+
+
+.label{
+    font-weight: bold;
+}
+.inputWidth{
+    width: 100%;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.425);
+    margin-bottom: 10px;
+}
+.vilniusInput{
+    margin-bottom: 10px;
+}
+.addPropertyButton{
+    background-color: rgb(153, 163, 153);
+    padding: 5px 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.addPropertyButton:hover{
+    border: 1px solid lightblue;
+    color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

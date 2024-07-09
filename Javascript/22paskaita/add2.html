@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add2.css">
+    <script type="module" src="add2.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="xx">    
+            <h1 class="x">Add your property for sale</h1>
+            <p class="x">Yes you can sell where you live and get cash!!</p>
+        </div>
+    </header>
+    <section  class="xx">
+        <h2>Add Property</h2>
+
+        <label class="label" for="text">Img</label><br>
+        <input class="inputWidth" id="text" type="url" placeholder="https://google.com/logo.png"><br>
+
+        <label class="label" for="price">Price, EUR</label><br>
+        <input class="inputWidth" id="price" type="text" placeholder="50000$"><br>
+
+        <label class="label" for="desc">Description</label><br>
+        <textarea class="inputWidth" name="" id="desc" cols="30" rows="5" placeholder="Anything you would like to say?"></textarea><br>
+
+        <label class="label" for="city">City</label><br>
+        <input class="vilniusInput" list="cities" id="city" placeholder="Vilnius">
+
+        <datalist id="cities">
+            <option value="Vilnius">
+            <option value="Kaunas">
+            <option value="Klaipėda">
+        </datalist><br>
+
+
+        <a href="./add.html">
+            <button id="addPropertyButton" class="addPropertyButton">Add Property</button>
+        </a>
+
+    </section>
+    
+</body>
+</html>
