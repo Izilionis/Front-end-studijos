@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: #2f4f4f;
+    color: white;
+}
+.s1{
+    background-color: aqua;
+}
+/* .s2{ 
+} */
+input{
+    margin-bottom: 10px;
+}
+input:read-only{
+    background-color: gray;
+}
+.borderiai{
+    border: 3px solid red;
+    border-left: 3px solid pink;
+}
+button{
+    background-color: green;
+    border: 2px solid black;
+    border-top: 2px solid brown;
+    border-left:  2px solid brown;
+    color: white;
+}
+button:hover{
+    background-color: rgb(0, 61, 0);
+    border: 2px solid black;
+    border-bottom: 2px solid brown;
+    border-right:  2px solid brown;
+    color: white;
+}
+textarea{
+    margin-bottom: 10px;
+}
+

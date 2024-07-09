@@ -1,0 +1,610 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    border-radius: 20px;
+    width: 550px;
+    overflow-x: hidden
+}
+
+
+.placeHodler{
+    width: 85%;
+    margin: auto;
+}
+.paragraph{
+    font-size: 1.5rem;
+}
+.h1{
+    font-size: 3rem;
+}
+.goldGloop{
+    color: rgb(185, 168, 72);
+}
+.textRight{
+    text-align: right;
+}
+.greenWomen{
+    position: absolute;
+    top: 500px;
+}
+
+
+
+
+header img{
+    width: 250px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+header .navMobile{
+    font-size: 2rem;
+    color: rgb(161, 158, 158);
+}
+header .navDesktop{
+    display: none;
+}
+
+
+
+.lounchingSoon img{
+    position: absolute;
+    width: 500px;
+    left: 250px;
+    top: 60px;
+}
+.lounchingSoon div{
+    margin-top: 80px;
+    width: 60%;
+    padding-left: 25px;
+}
+.lounchingSoon h5{
+    color: rosybrown;
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.lounchingSoon h1{
+    font-size: 3rem;
+    font-weight:bolder;
+}
+.lounchingSoon p{
+    color: rgb(90, 89, 89);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.lounchingSoon button{
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+    font-size: 1.5rem;
+    padding: 25px 60px;
+    border: 4px solid orangered;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+
+
+
+.freeNFT{
+    background-image: url(./images/background.svg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+.freeNFT h1{
+    padding-top: 100px;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+.freeNFT p{
+    padding-top: 0;
+    font-weight: 600;
+}
+
+
+.sponsors{
+    margin-bottom: 50px;
+}
+.sponsors div{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sponsors div div{
+    width: 200px;
+    height: 100px;
+}
+.sponsors div img{
+    width: 200px;
+}
+.sponsors .invisible{
+    display: none;
+}
+
+
+.auction h1{
+    font-weight: 600;
+}
+.auction a{
+    font-weight: 600;
+    color: rgb(85, 84, 84);
+}
+.auction a:hover{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+.nft {
+    padding-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.nft .container1 {
+    background-color: rgb(224, 224, 224);
+    width: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nft .container1 div {
+    padding: 10px 20px;
+}
+.nft .container1 img{
+    width: 400px;
+}
+.nft .container1 div h5 , h1, p{
+    margin: 10px;
+}
+.nft .container1 div img{
+    width: 15px;
+    padding-right: 10px;
+}
+.nft .invisible{
+    display: none;
+}
+
+
+
+.lounchingSoon2{
+    padding: 0;
+    margin: 0;
+    padding: 1px;
+    border-top: 2px solid rgba(128, 128, 128, 0.212);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.185);
+}
+.lounchingSoon2 img{
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    left: 350px;
+    top: 2500px;
+}
+.lounchingSoon2 div{
+    margin-top: 80px;
+    width: 50%;
+    padding-left: 25px;
+}
+.lounchingSoon2 h5{
+    color: rosybrown;
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.lounchingSoon2 h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.lounchingSoon2 p{
+    color: rgb(90, 89, 89);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.lounchingSoon2 button{
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+    font-size: 1.5rem;
+    padding: 25px 60px;
+    border: 5px solid orangered;
+    border-radius: 50px;
+    margin-bottom: 80px;
+    margin-top: 25px;
+}
+
+
+.social{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.social img {
+    width: 250px;
+}
+.social h3{
+    color: rgb(97, 96, 96);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.social i{
+    color: gray;
+    font-size: 1.5rem;
+    padding: 8px;
+}
+.social i:hover{
+    color: blueviolet;
+    font-size: 1.8rem;
+}
+
+.social .contacts{
+    flex: 5;
+    margin-right: 100px;
+}
+.social .info{
+    width: 50%;
+    flex: 1;
+    margin-right: 50px;
+}
+.social .info a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+    font-weight: bold;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    padding: 50px 0 100px 0;
+    margin: 0;
+    font-size: 1.7rem;
+    color: gray;
+}
+footer p:nth-child(2){
+    display: none;
+}
+
+
+@media screen and (min-width: 1000px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        border-radius: 20px;
+        width: 1000px;
+        overflow-x: hidden
+    }
+
+
+    .placeHodler{
+        width: 90%;
+        margin: auto;
+    }
+    .paragraph{
+        font-size: 1.2rem;
+    }
+    .h1{
+        font-size: 2.5rem;
+    }
+    .goldGloop{
+        color: rgb(185, 168, 72);
+    }
+    .greenWomen{
+        position: absolute;
+        top: 500px;
+    }
+    .singup{
+        color: red;
+    }
+    
+    
+    
+    
+    header img{
+        width: 150px;
+    }
+    header div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    header .navMobile{
+        display: none;
+    }
+    header .navDesktop{
+        display: flex;
+    }
+    header a{
+        padding-left: 15px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    .lounchingSoon{
+        margin-bottom: 120px;
+    }
+    .lounchingSoon img{
+        position: relative absolute;
+        width: 500px;
+        left: 450px;
+        top: 100px;
+    }
+    .lounchingSoon div{
+        margin-top: 150px;
+        width: 50%;
+        padding-left: 25px;
+        line-height: 1.1;
+    }
+    .lounchingSoon h5{
+        color: rosybrown;
+        font-size: 0.9rem;
+        padding-left: 10px;
+    }
+    .lounchingSoon h1{
+        font-size: 4rem;
+        font-weight:bolder;
+    }
+    .lounchingSoon p{
+        color: rgb(90, 89, 89);
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .lounchingSoon button{
+        font-weight: 700;
+        background-color: rgba(240, 248, 255, 0);
+        color: black;
+        font-size: 1rem;
+        padding: 15px 30px;
+        border: 3px solid orangered;
+        border-radius: 50px;
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+    
+    
+    
+    
+    .freeNFT{
+        margin-top: 100px;
+        width: 90%;
+        margin: auto;
+        background-image: url(./images/background.svg);
+        background-size:cover;
+        height: 250px;
+        border-radius: 10px;
+        
+    }
+    .freeNFT h1{
+        font-size: 1.7rem;
+        padding-top: 120px;
+        font-weight: 600;
+        padding-bottom: 0;
+    }
+    .freeNFT p{
+        font-size: 0.9rem;
+        padding-top: 0;
+        font-weight: 600;
+    }
+    
+    
+    
+    .sponsors div{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sponsors div div{
+        padding: 50px 0;
+        width: 150px;
+        height: 100px;
+    }
+    .sponsors div div img{
+        width: 150px;
+    }
+    .sponsors .invisible{
+        display: flex;
+    }
+    
+    
+    .auction h1{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    .auction p{
+        font-size: 0.9rem;
+    }
+    .auction a{
+        font-weight: 600;
+        color: rgb(85, 84, 84);
+    }
+    .auction a:hover{
+        color: blueviolet;
+        text-decoration: none;
+    }
+    
+    
+    .nft {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+        padding-left: 0;
+    }
+    
+    .nft .container1 {
+        background-color: rgb(241, 237, 237);
+        width: 220px;
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .nft .container1 div{
+        padding: 3px;
+       margin: 0;
+    }
+    .nft .container1 img{
+        width: 220px;
+    }
+    .nft .container1 div h5 {
+        font-size: 0.5rem;
+        padding: 0;
+    }
+    .nft .container1 div h1{
+        font-size: 0.9rem;
+        padding: 0;
+
+    }
+    .nft .container1 div p{
+        font-size: 0.9rem;
+        padding: 0;
+
+    }
+    .nft .container1 div img{
+        width: 10px;
+        padding-right: 5px;
+    }
+    .nft .invisible{
+        display: flex;
+    }
+    
+    
+    .lounchingSoon2{
+        padding: 1px;
+        border-top: 2px solid rgba(128, 128, 128, 0.123);
+        border-bottom: 2px solid rgba(128, 128, 128, 0.123);
+    }
+    .lounchingSoon2 img{
+        position: absolute;
+        width: 150px;
+        height: 600px;
+        left: 600px;
+        top: 1650px;
+    }
+    .lounchingSoon2 div{
+        margin-top: 80px;
+        width: 50%;
+        padding-left: 25px;
+    }
+    .lounchingSoon2 h5{
+        color: rosybrown;
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .lounchingSoon2 h1{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .lounchingSoon2 p{
+        color: rgb(90, 89, 89);
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .lounchingSoon2 button{
+        font-weight: 700;
+        background-color: rgba(240, 248, 255, 0);
+        color: black;
+        font-size: 1.1rem;
+        padding: 15px 30px;
+        border: 3px solid orangered;
+        border-radius: 50px;
+        margin-bottom: 73px;
+        margin-top: 25px;
+    }
+    
+    
+    .social{
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .social img {
+        width: 150px;
+    }
+    .social h3{
+        color: rgb(97, 96, 96);
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .social i{
+        color: gray;
+        font-size: 1rem;
+        padding: 8px;
+    }
+    .social i:hover{
+        color: blueviolet;
+        font-size: 1.8rem;
+    }
+    
+    .social .contacts{
+        flex: 5;
+        margin-right: 100px;
+    }
+    .social .info{
+        width: 50%;
+        flex: 1;
+        margin-right: 10px;
+    }
+    .social .info a{
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: rgb(63, 62, 62);
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    footer p{
+        padding: 50px 0;
+        margin: 0;
+        font-size: 0.9rem;
+        color: gray;
+    }
+    footer p:nth-child(2){
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
