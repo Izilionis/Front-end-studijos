@@ -1,0 +1,88 @@
+body{
+    background-color: #f8fafc;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+header i{
+    padding: 10px;
+    color: #645cff;
+}
+header span{
+    color: #8a2be2;
+}
+main h2{
+    padding-top: 30px;
+    text-align: center;
+}
+.a1{
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.a2{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+}
+
+
+.x1{
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.x2{
+    flex: 1;
+    font: bold;
+}
+.x3{
+    flex: 3;
+}
+button{
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #645cff;
+    color: white;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.poasd{
+    text-align: center;
+    font-size: 0.7em;
+    padding-bottom: 25px;
+    color: rgba(0, 0, 0, 0.61);
+}
+.taskInput{
+    border: none;
+    font: bold;
+}
+.nameInput{
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    border-radius: 4px;
+    background-color: #f8fafc;
+    color: black;
+    padding: 3px ;
+}
+.mygtukas{
+    width: 20%;
+    margin: auto;
+    border-radius: 5px;
+}
+.mygtukas2{
+    background: black;
+    color: white;
+    height: 25px;
+}

@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.a {
+    background-color: green;
+}
+.b{
+    background-color: blue;
+}
+.c{
+    background-color: yellow;
+}
+.text{
+    color: white;
+}
+

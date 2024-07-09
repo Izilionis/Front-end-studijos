@@ -1,0 +1,45 @@
+div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+body{
+    height: 200vh;
+}
+.positionStatic{
+    position: static;
+}
+.positionRelative{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-color: aliceblue;
+}
+.positionFixed{
+    height: unset;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: aliceblue;
+    z-index: 10;
+}
+
+
+
+.positionAbsolute{
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    background-color: antiquewhite;
+    z-index: 20;
+}
+.parentElement{
+    position: relative;
+    border: 3px solid red;
+}
+
+.positionSticky{
+    position: sticky;
+    top: 20px;
+}

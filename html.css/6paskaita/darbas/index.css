@@ -1,0 +1,41 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.541);
+}
+nav{
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 10px;
+}
+.grayText{
+    color: gray;
+}
+.blueText{
+    color: blue;
+}
+.noMargin{
+    margin: 0;
+}
+main{
+    margin-top: 20px;
+}
+section {
+    margin-bottom: 500px;
+}
+section p {
+    width: 90%;
+    margin: 15px auto;
+    max-width: 700px;
+}
+iframe{
+    display: block;
+    margin: auto;
+    width: 90%;
+    max-width: 700px;
+    height: 400px;
+}

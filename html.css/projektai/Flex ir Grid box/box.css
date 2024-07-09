@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 600px;
+    height: 600px;
+    outline: 1px solid purple;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .container div {
+    height: 200px;
+    width: 200px;
+    outline: 1px solid purple;
+  }
+  .container1 {
+    flex-wrap: wrap;
+  }
+
+  .container1 > .bigBox {
+    width: 400px;
+  }
+
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2 > .bigBox2{
+    height: 400px;
+}

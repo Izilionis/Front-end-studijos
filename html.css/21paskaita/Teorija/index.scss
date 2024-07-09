@@ -1,0 +1,42 @@
+$thele-color: blue;
+
+body{
+    background-color: rgb(209, 103, 103);
+}
+p{
+    color: $thele-color;
+}
+h1{
+    background-color: $thele-color;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+
+    nav{
+        padding: 20px;
+
+
+        &:hover{
+            background-color: green;
+        }
+        a{
+            text-decoration:none;
+        }
+    }
+
+}
+
+@mixin someStyle($size){
+    line-height: $size;
+    font-size: $size * 1.5;
+}
+
+.section{
+    @include someStyle(30px);
+}
+.section2{
+    @include someStyle(40px)
+}

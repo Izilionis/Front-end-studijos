@@ -1,0 +1,59 @@
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10 0px;
+}
+header img{
+    height: 50px;
+}
+header nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+}
+main .right{
+    text-align: right;
+}
+main img{
+    max-width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+main section:first-child{
+    flex: 2;
+    padding-right: 5px;
+}
+main section:last-child{
+    flex: 3;
+    padding-left: 5px;
+}
+footer{
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+button{
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+button:hover{
+    text-decoration: underline;
+    background-color: rgba(218, 165, 32, 0.466);
+}

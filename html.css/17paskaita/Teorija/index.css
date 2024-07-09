@@ -1,0 +1,29 @@
+.container{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    overflow: scroll;
+}
+.content{
+}
+.container2{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    overflow: scroll;
+}
+.content2{
+    white-space: nowrap;
+}
+
+
+
+.wrap{
+    width: 100px;
+    border: 1px solid black;
+}
+.textContainer p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

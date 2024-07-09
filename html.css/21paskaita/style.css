@@ -1,0 +1,226 @@
+.posision{
+    width: 85%;
+    margin: auto;
+}
+
+header div {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+header button{
+    border: 1px solid rgb(226, 215, 215);
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-left: 40px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.section1 {
+    display: flex;
+}
+.container1{
+    width: 40%;
+}
+.container1 h1{
+    font-size: 2rem;
+    margin-top: 100px;
+}
+.container1 button{
+    color: white;
+    padding: 10px 15px;
+    background-color: orangered;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.container01{
+    width: 350px;
+    border-radius: 15px;
+    position: absolute;
+    right: 150px;
+    top: 150px;
+    z-index: 10;
+}
+.container011{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    right: 80px;
+    top: 320px;
+    z-index: 15;
+    
+}
+.container0111{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(38, 84, 124);
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.section2{
+    margin-top: 100px;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.container022{
+    width: 100px;
+    justify-content: space-around;
+}
+
+
+
+.section3 img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+.section3{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+.container3{
+    flex: 3;
+}
+.container03{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container03 button{
+    padding: 5px 15px ;
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+}
+.info{
+    width: 47%;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    margin: 5px;
+}
+.info h3{
+    font-size: 0.9rem;
+}
+.info i{
+    color: orangered;
+    font-size: 1.5rem;
+}
+
+
+.section4{
+    margin-top: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section4 h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.section4 button{
+    margin-top: 50px;
+    background-color: rgba(139, 69, 19, 0);
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid rgb(184, 163, 163);
+}
+.container4{
+    display: flex;
+}
+.container4 div{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.container4 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.container4 h5{
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+.container4 p{
+    padding-left: 10px;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+
+
+.section5 {
+    text-align: center;
+    height: 300px;
+    background-image: url(./photos/7.jpg);
+    background-size: cover;
+    color: white;
+}
+.section5 div {
+    width: 33%;
+    margin: auto;
+    padding-top: 50px;
+}
+.section5 button{
+    color: white;
+    padding: 10px 15px ;
+    background-color: orangered;
+    border-radius: 20px;
+    border: none;
+}
+
+.section6{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(163, 155, 155);
+}
+.flex{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+.flex div {
+    width: 100px;
+}
+.flex a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer i {
+    padding: 10px;
+}

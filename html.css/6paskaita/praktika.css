@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300,100|Open+Sans+Condensed:300);
+
+body {
+  background: #fff;
+  font-family: Open Sans, sans-serif;
+}
+
+menu {
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.title-bar {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.grey {
+  color: #999;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.left p {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.main .movie-list .title-bar .right {
+    float: right;
+  }
+  
+.main .movie-list .title-bar .right a {
+    color: #999;
+    margin-left: 10px;
+  }
+  
+.main .movie-list .title-bar .right a.blue {
+    color: #279ceb;
+  }
+  
+.main .movie-list .list {
+    list-style-type: none;
+  }
+  
+.main .movie-list .list li {
+    padding-bottom: 30px;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+.main .movie-list .list li .title {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  
+.main .movie-list .list li .genre {
+    color: #999;
+    font-size: 12px;
+  }

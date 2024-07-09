@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(209, 103, 103);
+}
+
+p {
+  color: blue;
+}
+
+h1 {
+  background-color: blue;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+header nav {
+  padding: 20px;
+}
+header nav:hover {
+  background-color: green;
+}
+header nav a {
+  text-decoration: none;
+}
+
+.section {
+  line-height: 30px;
+  font-size: 45px;
+}
+
+.section2 {
+  line-height: 40px;
+  font-size: 60px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,37 @@
+body{
+    background: #eee;
+}
+header{
+    background-color: #fff;
+    box-shadow: 0 0 2px gray;
+    text-align: center;
+}
+header img{
+    height: 8rem;
+    vertical-align: top;
+}
+header nav a{
+    display: block;
+}
+
+.container{
+    padding: 1rem;
+}
+.wrapper{
+    padding: 1rem;
+}
+
+main .container{
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: 5px solid black;
+}
+table, thead, tbody{
+    display: table;
+    width: 100%;
+}
+footer {
+    text-align: center;
+    padding: 0 1rem 1rem 1rem;
+  }

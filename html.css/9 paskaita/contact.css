@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1486673748761-a8d18475c757?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+button{
+    padding: 3px 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(12, 39, 22);
+    color: white;
+    border: 0;
+}
+form{
+    margin: auto;
+    background-color: white;
+    width: 90%;
+}
+h2{
+    padding-top: 30px;
+    text-align: center;
+}
+div{
+    background-color: white;
+    color: black;
+    width: 60%;
+    margin: auto;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.pirmiDu{
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.antras{
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+}
+.trecias{
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+}
+textarea{
+    padding-top: 10px;
+    width: 100%;
+}
